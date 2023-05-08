@@ -116,7 +116,7 @@ export default function Viewer2D(_ref, _ref2) {
 const Viewer=useRef(null)
   useEffect(()=>{
 
-    console.log(Viewer.current)
+    console.log('VIEWER ', Viewer.current)
     Viewer.current.zoom(centerX,centerY,zoom);
 
   },[zoom])
