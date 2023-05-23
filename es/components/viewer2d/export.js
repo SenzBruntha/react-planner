@@ -1,4 +1,5 @@
 import Viewer2D from './viewer2d';
+import { cursorPosition } from './viewer2d';
 import Vertex from './vertex';
 import State from './state';
 import Snap from './snap';
@@ -13,10 +14,11 @@ import Group from './group';
 import RulerX from './rulerX';
 import RulerY from './rulerY';
 
-export { Viewer2D, Vertex, State, Snap, Scene, Ruler, Line, Layer, Item, Area, Grids, Group, RulerX, RulerY };
+export { Viewer2D, Vertex, State, Snap, Scene, Ruler, Line, Layer, Item, Area, Grids, Group, RulerX, RulerY, cursorPosition };
 
 export default {
   Viewer2D: Viewer2D,
+  cursorPosition: cursorPosition,
   Vertex: Vertex,
   State: State,
   Snap: Snap,
